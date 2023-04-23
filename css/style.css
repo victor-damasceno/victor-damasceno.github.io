@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+    Isso é chamado de regra Reset, ou resetar, serve para aplicar uma alteração, uma regra, para todas as tags existentes.
+    É muito comum de ser feito
+*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;  /* Essa propriedade só funciona quando tem o <display: flex>*/
+    list-style: none;
+    margin: 20px 0;
+}
+
+/* 
+    O primeiro conceito do Flexbox, pois ele é muito abrangente, é que utilizando ele junto a um elemento pai de um bloco, todos os elementos filhos vão ficar lado a lado.
+*/
+
+.social img {
+    width: 33px;
+}
+
+/* 
+    Esta é uma regra aninhada. Selecionamos a classe "social" e dentro dessa classe selecionamos a tag "img", ou seja, todas as imagens presentes nela 
+*/
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    background: white;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+
+/*
+    Temos diferentes tags que se comportam de maneiras diferentes. Exemplo, a tag <a> é do tipo Inline. Então, o display dela, por padrão, é o <display: inline>. Sendo assim, tem o comportamento de deixar tudo na mesma linha.
+
+    O tipo Inline não tem o comportamento de um block (bloco), ele não consegue ter margem. Por ser Inline, faz com que todos os elementos fiquem lado a lado.
+*/
+
+/*
+    MINHA FORMA DE FAZER OS BOTÕES:
+
+    h3 {
+        font-size: 17px;
+        margin-bottom: 3px;
+        color: rgb(54,77,204);
+    }
+
+    h4 {
+        font-size: 15px;
+        color: rgb(87, 87, 87);
+    }
+
+    .links-list li{
+        text-align: left;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 20px white;
+        margin: 0 15px 8px;
+        padding: 15px 20px;
+        list-style: none;
+    }
+
+    .links-curso {
+        text-decoration: none;
+    }
+*/
+
