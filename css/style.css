@@ -93,32 +93,3 @@ h2 {
     O tipo Inline não tem o comportamento de um block (bloco), ele não consegue ter margem. Por ser Inline, faz com que todos os elementos fiquem lado a lado.
 */
 
-/*
-    MINHA FORMA DE FAZER OS BOTÕES:
-
-    h3 {
-        font-size: 17px;
-        margin-bottom: 3px;
-        color: rgb(54,77,204);
-    }
-
-    h4 {
-        font-size: 15px;
-        color: rgb(87, 87, 87);
-    }
-
-    .links-list li{
-        text-align: left;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: 0 0 20px white;
-        margin: 0 15px 8px;
-        padding: 15px 20px;
-        list-style: none;
-    }
-
-    .links-curso {
-        text-decoration: none;
-    }
-*/
-
